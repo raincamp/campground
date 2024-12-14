@@ -8,7 +8,7 @@ import type {
 } from 'storefrontapi.generated';
 
 export const meta: MetaFunction = () => {
-  return [{title: 'Hydrogen | Home'}];
+  return [{title: 'raincamp :: base camp'}];
 };
 
 export async function loader(args: LoaderFunctionArgs) {

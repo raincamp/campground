@@ -3,7 +3,7 @@ import {useLoaderData, type MetaFunction} from '@remix-run/react';
 import {Image} from '@shopify/hydrogen';
 
 export const meta: MetaFunction<typeof loader> = ({data}) => {
-  return [{title: `Hydrogen | ${data?.article.title ?? ''} article`}];
+  return [{title: `raincamp :: ${data?.article.title ?? ''} article`}];
 };
 
 export async function loader(args: LoaderFunctionArgs) {

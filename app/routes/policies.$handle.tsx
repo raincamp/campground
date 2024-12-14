@@ -8,7 +8,7 @@ type SelectedPolicies = keyof Pick<
 >;
 
 export const meta: MetaFunction<typeof loader> = ({data}) => {
-  return [{title: `Hydrogen | ${data?.policy.title ?? ''}`}];
+  return [{title: `raincamp :: ${data?.policy.title ?? ''}`}];
 };
 
 export async function loader({params, context}: LoaderFunctionArgs) {
