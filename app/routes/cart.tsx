@@ -5,7 +5,7 @@ import {json, type LoaderFunctionArgs, type ActionFunctionArgs} from '@shopify/r
 import {CartMain} from '~/components/CartMain';
 
 export const meta: MetaFunction = () => {
-  return [{title: `Hydrogen | Cart`}];
+  return [{title: `raincamp :: cart`}];
 };
 
 export async function action({request, context}: ActionFunctionArgs) {

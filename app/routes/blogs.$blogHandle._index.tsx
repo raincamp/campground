@@ -5,7 +5,7 @@ import type {ArticleItemFragment} from 'storefrontapi.generated';
 import {PaginatedResourceSection} from '~/components/PaginatedResourceSection';
 
 export const meta: MetaFunction<typeof loader> = ({data}) => {
-  return [{title: `Hydrogen | ${data?.blog.title ?? ''} blog`}];
+  return [{title: `raincamp :: ${data?.blog.title ?? ''} blog`}];
 };
 
 export async function loader(args: LoaderFunctionArgs) {

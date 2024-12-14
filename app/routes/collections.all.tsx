@@ -6,7 +6,7 @@ import {useVariantUrl} from '~/lib/variants';
 import {PaginatedResourceSection} from '~/components/PaginatedResourceSection';
 
 export const meta: MetaFunction<typeof loader> = () => {
-  return [{title: `Hydrogen | Products`}];
+  return [{title: `raincamp :: products`}];
 };
 
 export async function loader(args: LoaderFunctionArgs) {
