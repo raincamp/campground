@@ -16,6 +16,7 @@ import resetStyles from '~/styles/reset.css?url';
 import appStyles from '~/styles/app.css?url';
 import {PageLayout} from '~/components/PageLayout';
 import {FOOTER_QUERY, HEADER_QUERY} from '~/lib/fragments';
+import stylesheet from '~/tailwind.css?url';
 
 export type RootLoader = typeof loader;
 
@@ -40,6 +41,7 @@ export const shouldRevalidate: ShouldRevalidateFunction = ({
 export function links() {
   return [
     {rel: 'stylesheet', href: resetStyles},
+    {rel: 'stylesheet', href: stylesheet},
     {rel: 'stylesheet', href: appStyles},
     {
       rel: 'preconnect',
